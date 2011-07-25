@@ -1,0 +1,3 @@
+After building
+* move IMTestService.imserviceplugin to ~/Library/iChat/PlugIns/
+* sudo killall imagent

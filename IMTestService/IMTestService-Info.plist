@@ -6,23 +6,45 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIconFile</key>
-	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.kalapun.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.kalapun.iChat.services.TestService</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>TestService!</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2011 __MyCompanyName__. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
+	<string>IMTestService</string>
+	<key>IMUsesServerPortAccountSetting</key>
+	<false/>
+	<key>IMUsesServerHostAccountSetting</key>
+	<true/>
+	<key>IMUsesEnableSSLAccountSetting</key>
+	<false/>
+	<key>kABInstantMessageProperty</key>
+	<string>kABInstantMessageServiceTestService</string>
+	<key>IMDefaultHandleCapabilities</key>
+	<array>
+		<string>IMHandleCapabilityMessaging</string>
+		<string>IMHandleCapabilityOfflineMessaging</string>
+		<string>IMHandleCapabilityHandlePicture</string>
+	</array>
+	<key>IMServiceCapabilities</key>
+	<array>
+		<string>IMServiceCapabilityPresenceSupport</string>
+		<string>IMServiceCapabilityPresenceInvisibilitySupport</string>
+		<string>IMServiceCapabilityInstantMessagingSupport</string>
+		<string>IMServiceCapabilityGroupListSupport</string>
+		<string>IMServiceCapabilityGroupListEditingSupport</string>
+		<string>IMServiceCapabilityGroupListAuthorizationSupport</string>
+		<string>IMServiceCapabilityFileTransferSessionSupport</string>
+	</array>
+	<key>_IMInternalName</key>
 	<string>IMTestService</string>
 </dict>
 </plist>

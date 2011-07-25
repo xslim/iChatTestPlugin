@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5542349113C9D4B400C7C75A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5542349013C9D4B400C7C75A /* AddressBook.framework */; };
 		5542349313C9D4B400C7C75A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5542349213C9D4B400C7C75A /* Cocoa.framework */; };
 		5542349D13C9D4B400C7C75A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5542349B13C9D4B400C7C75A /* InfoPlist.strings */; };
-		554234A013C9D4B400C7C75A /* IMTestService.h in Resources */ = {isa = PBXBuildFile; fileRef = 5542349F13C9D4B400C7C75A /* IMTestService.h */; };
 		554234A213C9D4B400C7C75A /* IMTestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 554234A113C9D4B400C7C75A /* IMTestService.m */; };
+		554234A913C9D57A00C7C75A /* IMServicePlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554234A813C9D57A00C7C75A /* IMServicePlugIn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5542348D13C9D4B400C7C75A /* IMTestService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMTestService.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5542349013C9D4B400C7C75A /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		5542348D13C9D4B400C7C75A /* IMTestService.imserviceplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMTestService.imserviceplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		5542349213C9D4B400C7C75A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5542349513C9D4B400C7C75A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		5542349613C9D4B400C7C75A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5542349713C9D4B400C7C75A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5542349A13C9D4B400C7C75A /* IMTestService-Info.plist */ = {isa = PBXFileReference; path = "IMTestService-Info.plist"; sourceTree = "<group>"; };
+		5542349A13C9D4B400C7C75A /* IMTestService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IMTestService-Info.plist"; sourceTree = "<group>"; };
 		5542349C13C9D4B400C7C75A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5542349E13C9D4B400C7C75A /* IMTestService-Prefix.pch */ = {isa = PBXFileReference; path = "IMTestService-Prefix.pch"; sourceTree = "<group>"; };
+		5542349E13C9D4B400C7C75A /* IMTestService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMTestService-Prefix.pch"; sourceTree = "<group>"; };
 		5542349F13C9D4B400C7C75A /* IMTestService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMTestService.h; sourceTree = "<group>"; };
 		554234A113C9D4B400C7C75A /* IMTestService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMTestService.m; sourceTree = "<group>"; };
+		554234A813C9D57A00C7C75A /* IMServicePlugIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMServicePlugIn.framework; path = System/Library/Frameworks/IMServicePlugIn.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5542349113C9D4B400C7C75A /* AddressBook.framework in Frameworks */,
+				554234A913C9D57A00C7C75A /* IMServicePlugIn.framework in Frameworks */,
 				5542349313C9D4B400C7C75A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +51,7 @@
 		5542348E13C9D4B400C7C75A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5542348D13C9D4B400C7C75A /* IMTestService.bundle */,
+				5542348D13C9D4B400C7C75A /* IMTestService.imserviceplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,7 +59,7 @@
 		5542348F13C9D4B400C7C75A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5542349013C9D4B400C7C75A /* AddressBook.framework */,
+				554234A813C9D57A00C7C75A /* IMServicePlugIn.framework */,
 				5542349213C9D4B400C7C75A /* Cocoa.framework */,
 				5542349413C9D4B400C7C75A /* Other Frameworks */,
 			);
@@ -72,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				5542349513C9D4B400C7C75A /* AppKit.framework */,
-				5542349613C9D4B400C7C75A /* CoreData.framework */,
 				5542349713C9D4B400C7C75A /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -115,7 +112,7 @@
 			);
 			name = IMTestService;
 			productName = IMTestService;
-			productReference = 5542348D13C9D4B400C7C75A /* IMTestService.bundle */;
+			productReference = 5542348D13C9D4B400C7C75A /* IMTestService.imserviceplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +143,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5542349D13C9D4B400C7C75A /* InfoPlist.strings in Resources */,
-				554234A013C9D4B400C7C75A /* IMTestService.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +177,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -198,6 +195,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -208,6 +206,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -218,6 +217,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -225,24 +225,26 @@
 		554234A613C9D4B400C7C75A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IMTestService/IMTestService-Prefix.pch";
 				INFOPLIST_FILE = "IMTestService/IMTestService-Info.plist";
-				INSTALL_PATH = "$(HOME)/Developer/Palettes";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/iChat/PlugIns";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = imserviceplugin;
 			};
 			name = Debug;
 		};
 		554234A713C9D4B400C7C75A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IMTestService/IMTestService-Prefix.pch";
 				INFOPLIST_FILE = "IMTestService/IMTestService-Info.plist";
-				INSTALL_PATH = "$(HOME)/Developer/Palettes";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/iChat/PlugIns";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = imserviceplugin;
 			};
 			name = Release;
 		};
